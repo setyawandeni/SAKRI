@@ -1,5 +1,5 @@
 title = "SAKRI"
-baseurl = "http://localhost/"
+baseurl = "https://github.com/setyawandeni/SAKRI.git"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
