@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on SAKRI</title>
-    <link>http://localhost:1313/categories/programming/</link>
+    <link>http://localhost:1313/setyawandeni/SAKRI.git/categories/programming/</link>
     <description>Recent content in Programming on SAKRI</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Hyas</copyright>
     <lastBuildDate>Sun, 18 Aug 2024 13:43:59 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/setyawandeni/SAKRI.git/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>programming</title>
-      <link>http://localhost:1313/blog/programming/</link>
+      <link>http://localhost:1313/setyawandeni/SAKRI.git/blog/programming/</link>
       <pubDate>Sun, 18 Aug 2024 13:43:59 +0700</pubDate>
-      <guid>http://localhost:1313/blog/programming/</guid>
+      <guid>http://localhost:1313/setyawandeni/SAKRI.git/blog/programming/</guid>
       <description>Halo Dek</description>
     </item>
   </channel>

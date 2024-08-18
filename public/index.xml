@@ -2,74 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome to SAKRI on SAKRI</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/setyawandeni/SAKRI.git/</link>
     <description>Recent content in Welcome to SAKRI on SAKRI</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Hyas</copyright>
     <lastBuildDate>Sun, 18 Aug 2024 13:48:13 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/setyawandeni/SAKRI.git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>math</title>
-      <link>http://localhost:1313/blog/math/</link>
+      <link>http://localhost:1313/setyawandeni/SAKRI.git/blog/math/</link>
       <pubDate>Sun, 18 Aug 2024 13:48:13 +0700</pubDate>
-      <guid>http://localhost:1313/blog/math/</guid>
+      <guid>http://localhost:1313/setyawandeni/SAKRI.git/blog/math/</guid>
       <description>Halo Rekk</description>
     </item>
     <item>
       <title>Reverse Engineering</title>
-      <link>http://localhost:1313/blog/reverse-engineering/</link>
+      <link>http://localhost:1313/setyawandeni/SAKRI.git/blog/reverse-engineering/</link>
       <pubDate>Sun, 18 Aug 2024 13:48:09 +0700</pubDate>
-      <guid>http://localhost:1313/blog/reverse-engineering/</guid>
+      <guid>http://localhost:1313/setyawandeni/SAKRI.git/blog/reverse-engineering/</guid>
       <description>Quick Start Get a new Doks project up and running locally with our helpful create-hyas CLI wizard!&#xA;npm&#xD;pnpm&#xD;Yarn&#xD;npm create hyas@latest -- --template doks&#xD;pnpm create hyas@latest --template doks&#xD;yarn create hyas@latest --template doks&#xD;Our Installation Guide has step-by-step instructions for installing Doks using our CLI wizard.</description>
     </item>
     <item>
       <title>programming</title>
-      <link>http://localhost:1313/blog/programming/</link>
+      <link>http://localhost:1313/setyawandeni/SAKRI.git/blog/programming/</link>
       <pubDate>Sun, 18 Aug 2024 13:43:59 +0700</pubDate>
-      <guid>http://localhost:1313/blog/programming/</guid>
+      <guid>http://localhost:1313/setyawandeni/SAKRI.git/blog/programming/</guid>
       <description>Halo Dek</description>
     </item>
     <item>
       <title>Example Post</title>
-      <link>http://localhost:1313/blog/example-post/</link>
+      <link>http://localhost:1313/setyawandeni/SAKRI.git/blog/example-post/</link>
       <pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate>
-      <guid>http://localhost:1313/blog/example-post/</guid>
+      <guid>http://localhost:1313/setyawandeni/SAKRI.git/blog/example-post/</guid>
       <description>You can use blog posts for announcing product updates and features.</description>
     </item>
     <item>
       <title>Example Guide</title>
-      <link>http://localhost:1313/docs/guides/example-guide/</link>
+      <link>http://localhost:1313/setyawandeni/SAKRI.git/docs/guides/example-guide/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/docs/guides/example-guide/</guid>
+      <guid>http://localhost:1313/setyawandeni/SAKRI.git/docs/guides/example-guide/</guid>
       <description>Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.</description>
     </item>
     <item>
       <title>Example Reference</title>
-      <link>http://localhost:1313/docs/reference/example-reference/</link>
+      <link>http://localhost:1313/setyawandeni/SAKRI.git/docs/reference/example-reference/</link>
       <pubDate>Thu, 07 Sep 2023 16:13:18 +0200</pubDate>
-      <guid>http://localhost:1313/docs/reference/example-reference/</guid>
+      <guid>http://localhost:1313/setyawandeni/SAKRI.git/docs/reference/example-reference/</guid>
       <description>Reference pages are ideal for outlining how things work in terse and clear terms. Less concerned with telling a story or addressing a specific use case, they should give a comprehensive outline of what your documenting.</description>
     </item>
     <item>
       <title>Pertama</title>
-      <link>http://localhost:1313/docs/learn/pertama/</link>
+      <link>http://localhost:1313/setyawandeni/SAKRI.git/docs/learn/pertama/</link>
       <pubDate>Sat, 17 Aug 2024 16:33:04 +0700</pubDate>
-      <guid>http://localhost:1313/docs/learn/pertama/</guid>
+      <guid>http://localhost:1313/setyawandeni/SAKRI.git/docs/learn/pertama/</guid>
       <description>Hello ini hal pertama</description>
     </item>
     <item>
       <title>Resources</title>
-      <link>http://localhost:1313/docs/resources/</link>
+      <link>http://localhost:1313/setyawandeni/SAKRI.git/docs/resources/</link>
       <pubDate>Tue, 27 Feb 2024 09:30:56 +0100</pubDate>
-      <guid>http://localhost:1313/docs/resources/</guid>
+      <guid>http://localhost:1313/setyawandeni/SAKRI.git/docs/resources/</guid>
       <description>Link to valuable, relevant resources.</description>
     </item>
     <item>
       <title>Privacy Policy</title>
-      <link>http://localhost:1313/privacy/</link>
+      <link>http://localhost:1313/setyawandeni/SAKRI.git/privacy/</link>
       <pubDate>Thu, 07 Sep 2023 17:19:07 +0200</pubDate>
-      <guid>http://localhost:1313/privacy/</guid>
+      <guid>http://localhost:1313/setyawandeni/SAKRI.git/privacy/</guid>
       <description></description>
     </item>
   </channel>
