@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on SAKRI</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blog on SAKRI</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 Hyas</copyright>
+    <lastBuildDate>Sun, 18 Aug 2024 13:48:13 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>math</title>
+      <link>http://localhost:1313/blog/math/</link>
+      <pubDate>Sun, 18 Aug 2024 13:48:13 +0700</pubDate>
+      <guid>http://localhost:1313/blog/math/</guid>
+      <description>Halo Rekk</description>
+    </item>
+    <item>
+      <title>Reverse Engineering</title>
+      <link>http://localhost:1313/blog/reverse-engineering/</link>
+      <pubDate>Sun, 18 Aug 2024 13:48:09 +0700</pubDate>
+      <guid>http://localhost:1313/blog/reverse-engineering/</guid>
+      <description>Quick Start Get a new Doks project up and running locally with our helpful create-hyas CLI wizard!&#xA;npm&#xD;pnpm&#xD;Yarn&#xD;npm create hyas@latest -- --template doks&#xD;pnpm create hyas@latest --template doks&#xD;yarn create hyas@latest --template doks&#xD;Our Installation Guide has step-by-step instructions for installing Doks using our CLI wizard.</description>
+    </item>
+    <item>
+      <title>programming</title>
+      <link>http://localhost:1313/blog/programming/</link>
+      <pubDate>Sun, 18 Aug 2024 13:43:59 +0700</pubDate>
+      <guid>http://localhost:1313/blog/programming/</guid>
+      <description>Halo Dek</description>
+    </item>
+    <item>
+      <title>Example Post</title>
+      <link>http://localhost:1313/blog/example-post/</link>
+      <pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate>
+      <guid>http://localhost:1313/blog/example-post/</guid>
+      <description>You can use blog posts for announcing product updates and features.</description>
+    </item>
+  </channel>
+</rss>
