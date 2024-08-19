@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/learn/math/</loc>
+    <lastmod>2024-08-19T21:59:52+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/learn/programming/</loc>
+    <lastmod>2024-08-19T21:57:17+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/learn/reverse_engineering/</loc>
+    <lastmod>2024-08-19T22:01:49+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/blog/example-post/</loc>
     <lastmod>2023-09-07T16:27:22+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -54,21 +69,6 @@
   </url><url>
     <loc>http://localhost:1313/docs/</loc>
     <lastmod>2023-09-07T16:12:03+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/learn/reverse_engineering/</loc>
-    <lastmod>2024-08-19T22:01:49+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/learn/math/</loc>
-    <lastmod>2024-08-19T21:59:52+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/learn/programming/</loc>
-    <lastmod>2024-08-19T21:57:17+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

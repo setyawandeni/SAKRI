@@ -5,6 +5,7 @@ summary: ""
 date: 2024-08-19T21:57:17+07:00
 lastmod: 2024-08-19T21:57:17+07:00
 draft: false
+weight: 15
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)
