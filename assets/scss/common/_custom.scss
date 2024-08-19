@@ -1,6 +1,10 @@
 // Put your custom SCSS code here
 // Put your custom SCSS code here
 
+body {
+  font-family: "JetBrains Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
 .list.section.showcase {
   .wrap.container-fluid,
   .wrap.container-lg {

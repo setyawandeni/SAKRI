@@ -5,6 +5,7 @@ summary: ""
 date: 2024-08-19T22:01:49+07:00
 lastmod: 2024-08-19T22:01:49+07:00
 draft: false
+weight: 20
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)
@@ -68,7 +69,7 @@ Our [Installation Guide](/docs/start-here/installation/) has step-by-step instru
 
 - [Roadmap 2024](https://github.com/orgs/gethyas/discussions/462)
 - [Discussions](https://github.com/gethyas/doks/discussions)
-- [Blog](/blog/)
+- [Blog](/blog/example-post/)
 
 {{< /card >}}
 {{< card title="Other docs" icon="outline/books" color="red" >}}
