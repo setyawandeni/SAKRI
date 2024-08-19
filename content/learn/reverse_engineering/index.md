@@ -2,21 +2,18 @@
 title: "Reverse Engineering"
 description: ""
 summary: ""
-date: 2024-08-18T13:48:09+07:00
-lastmod: 2024-08-18T13:48:09+07:00
+date: 2024-08-19T22:01:49+07:00
+lastmod: 2024-08-19T22:01:49+07:00
 draft: false
-weight: 50
-categories: ["reverse_engineering"]
-tags: []
-contributors: []
-pinned: false
-homepage: false
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+
+Doks is a full-featured documentation theme built on top of the [Thulite](https://thulite.io/) framework. Here you'll find guides, resources, and references to help you build with Doks.
+
 ## Quick Start
 
 Get a new Doks project up and running locally with our helpful `create-hyas` CLI wizard!

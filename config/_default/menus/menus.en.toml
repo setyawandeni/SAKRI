@@ -40,25 +40,9 @@
   weight = 30
 
 [[main]]
-  name = "Programming"
-  url = "/categories/programming/"
-  parent = "Blog"
-  identifier = "programming"
-  weight = 20
-
-[[main]]
-  name = "Math"
-  url = "/categories/math/"
-  parent = "Blog"
-  identifier = "math"
-  weight = 25
-
-[[main]]
-  name = "Reverse Engineering"
-  url = "/categories/reverse_engineering/"
-  parent = "Blog"
-  identifier = "reverse_engineering"
-  weight = 30
+  name = "Learn"
+  url = "/learn/"
+  weight = 35
 
 # [[main]]
 #   name = "Tutorial"
