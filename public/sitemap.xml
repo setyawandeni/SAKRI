@@ -17,6 +17,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/blog/sistem-koordinat-3d/</loc>
+    <lastmod>2024-09-09T09:58:37+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/blog/metode_penjumlahan/</loc>
+    <lastmod>2024-09-04T07:06:46+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/blog/metode-perkalian/</loc>
     <lastmod>2024-09-04T06:41:10+07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -29,11 +39,6 @@
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2023-09-07T16:21:44+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/blog/metode_penjumlahan/</loc>
-    <lastmod>2024-09-04T07:06:46+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -83,12 +88,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-09-04T07:06:46+07:00</lastmod>
+    <lastmod>2024-09-09T09:58:37+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/categories/math/</loc>
-    <lastmod>2024-09-04T07:06:46+07:00</lastmod>
+    <lastmod>2024-09-09T09:58:37+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
