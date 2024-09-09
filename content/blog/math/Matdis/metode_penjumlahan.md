@@ -5,7 +5,7 @@ summary: ""
 date: 2024-09-04T07:06:46+07:00
 lastmod: 2024-09-04T07:06:46+07:00
 draft: false
-weight: 60
+weight: 50
 categories: [math]
 tags: []
 contributors: []
