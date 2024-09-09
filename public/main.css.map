@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "C:/Users/DENI/Documents/Dev/My_project",
+	"sourceRoot": "C:/Users/DENI/Documents/Dev/SAKRI_Project",
 	"sources": [
 		"node_modules/@hyas/core/assets/scss/app.scss",
 		"node_modules/bootstrap/scss/_functions.scss",

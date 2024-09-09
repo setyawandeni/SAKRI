@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="preload" href="http://localhost:1313/fonts/vendor/jost/jost-v4-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/vendor/jost/jost-v4-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/vendor/jost/jost-v4-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="preload" href="http://localhost:1313/fonts/jetbrains-mono/jetbrains-mono-v18-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/jetbrains-mono/jetbrains-mono-v18-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+<script 
+  src="/js/color-mode.f14b3e296de1d0b69e75af684b62a4a912a2cadab04e36123407cd8388204f1d.js"
+  integrity="sha256-8Us&#43;KW3h0Laeda9oS2KkqRKiytqwTjYSNAfNg4ggTx0=">
+</script>
+
+
+<link rel="stylesheet" href="/main.9fb44d71f0e6ec433c4789476e1b3b5b37bb34f6bf7b7f8ef5ddbb9250800c6b174f95f411ac97740aa2e949bb9e81d81edd457a5d08761c237cb33da7f6eefd.css" integrity="sha512-n7RNcfDm7EM8R4lHbhs7Wze7NPa/e3&#43;O9d27klCADGsXT5X0EayXdAqi6Um7noHYHt1Fel0IdhwjfLM9p/bu/Q==" crossorigin="anonymous">
+
+<noscript><style>img.lazyload { display: none; }</style></noscript><base href="http://localhost:1313/blog/metode-perkalian/">
+  <link rel="canonical" href="http://localhost:1313/blog/metode-perkalian/">
+<title>Metode Perkalian  |  SAKRI</title>
+<meta name="description" content="Congrats on setting up a new Doks project!">
+
+    
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    
+      <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    
+      <link
+        rel="apple-touch-icon"
+        href="/apple-touch-icon.png"
+        sizes="180x180"
+        type="image/png"
+      >
+      <link
+        rel="icon"
+        href="/favicon-192x192.png"
+        sizes="192x192"
+        type="image/png"
+      >
+      <link
+        rel="icon"
+        href="/favicon-512x512.png"
+        sizes="512x512"
+        type="image/png"
+      >
+<link rel="manifest" href="/manifest.webmanifest">
+<meta property="og:title" content="Metode Perkalian">
+<meta property="og:description" content="Metode Fundamental Pencacahan (Fundamental Principle of Counting) adalah prinsip dasar dalam matematika diskrit yang digunakan untuk menghitung jumlah total kemungkinan dari serangkaian pilihan atau langkah.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://localhost:1313/blog/metode-perkalian/"><meta property="og:image" content="http://localhost:1313/cover.png"><meta property="article:section" content="blog">
+<meta property="article:published_time" content="2024-09-04T06:41:10+07:00">
+<meta property="article:modified_time" content="2024-09-04T06:41:10+07:00"><meta property="og:site_name" content="My Docs">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/cover.png"><meta name="twitter:title" content="Metode Perkalian">
+<meta name="twitter:description" content="Metode Fundamental Pencacahan (Fundamental Principle of Counting) adalah prinsip dasar dalam matematika diskrit yang digunakan untuk menghitung jumlah total kemungkinan dari serangkaian pilihan atau langkah.">
+<meta name="twitter:site" content="@getdoks">
+
+    
+    <script type="application/ld+json">
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/",
+       "name": "Welcome to Sakri",
+       "position": 1
+     },
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/blog/",
+       "name": "Blog",
+       "position": 2
+     },
+     {
+       "@type": "ListItem",
+       "name": "Metode Perkalian",
+       "position": 3
+     }
+   ]
+ }
+</script>
+  
+	
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Metode Perkalian",
+      "description": "",
+      "isPartOf": {
+        "@id": "http://localhost:1313/blog/metode-perkalian/"
+      },
+      "mainEntityOfPage": {
+        "@id": "http://localhost:1313/blog/metode-perkalian/"
+      },
+      "datePublished": "2024-09-04T06:41:10+07:00",
+      "dateModified": "2024-09-04T06:41:10+07:00",
+      "author": {
+        "@type": "Organization",
+        "name": "Hyas",
+        "url": "http://localhost:1313/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Hyas"
+      }
+    }
+  ]
+}
+</script>
+
+
+
+
+
+
+</head>
+
+  
+  <body class="single section blog" data-bs-spy="scroll" data-bs-target="#toc" data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll="true" tabindex="0">
+    <div class="sticky-top">
+<header class="navbar navbar-expand-lg">
+  <div class="container-lg">
+  
+    <a class="navbar-brand me-auto me-lg-3" href="/">SAKRI</a>
+
+    
+    
+    <button type="button" id="searchToggleMobile" class="btn btn-link nav-link mx-2 d-lg-none" aria-label="Search website">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <circle cx="10" cy="10" r="7"></circle>
+        <line x1="21" y1="21" x2="15" y2="15"></line>
+      </svg>
+    </button>
+    
+    
+    <button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain" aria-label="Open main navigation menu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <line x1="4" y1="8" x2="20" y2="8"></line>
+        <line x1="4" y1="16" x2="20" y2="16"></line>
+      </svg>
+    </button>
+
+    
+    <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain" aria-labelledby="offcanvasNavMainLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavMainLabel">SAKRI</h5>
+        <button type="button" class="btn btn-link nav-link p-0 ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M18 6l-12 12"></path>
+            <path d="M6 6l12 12"></path>
+         </svg>
+        </button>
+      </div>
+      
+      <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+        <ul class="navbar-nav flex-grow-1"><li class="nav-item">
+                <a class="nav-link" href="http://localhost:1313/docs/guides/example-guide/">Docs</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="http://localhost:1313/blog/" aria-current="true">Blog</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost:1313/learn/">Learn</a>
+              </li>
+            </ul>
+
+        
+        
+        <button type="button" id="searchToggleDesktop" class="btn btn-link nav-link p-2 d-none d-lg-block" aria-label="Search website">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <circle cx="10" cy="10" r="7"></circle>
+            <line x1="21" y1="21" x2="15" y2="15"></line>
+          </svg>
+        </button>
+        
+        
+        
+        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1" type="button" aria-label="Toggle theme">
+          <svg data-bs-theme-value="dark" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+          </svg>
+          <svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0m-5 0h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"></path>
+          </svg>
+        </button>
+        
+        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+          <li class="nav-item">
+              <a class="nav-link social-link" href="https://github.com/gethyas/doks"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg><small class="ms-2 visually-hidden">GitHub</small></a>
+            </li>
+          </ul>
+        
+        </div>
+    </div>
+
+    
+    </div>
+</header>
+</div>
+
+<div class="modal" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 visually-hidden" id="searchModalLabel">Search</h1>
+        <button type="button" class="btn-close visually-hidden" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="search-input flex-grow-1 d-none">
+          <form id="search-form" class="search-form" action="#" method="post" accept-charset="UTF-8" role="search">
+            <label for="query" class="visually-hidden">Search</label>
+            <div class="d-flex">
+              <input type="search" id="query" name="query" class="search-text form-control form-control-lg" placeholder="Search" aria-label="Search" maxlength="128" autocomplete="off">
+              <button type="button" class="btn btn-link text-decoration-none px-0 ms-3 d-md-none" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="modal-body">
+        <p class="search-loading status message d-none mt-3 text-center">Loading search index…</p>
+        <p class="search-no-recent message d-none mt-3 text-center">No recent searches</p>
+        <p class="search-no-results message d-none mt-3 text-center">No results for "<strong><span class="query-no-results">Query here</span></strong>"</p>
+        <div id="searchResults" class="search-results"></div>
+        <template>
+          <article class="search-result list-view">
+            <div class="card my-3">
+              <div class="card-body">
+                <header>
+                  <h2 class="h5 title title-submitted mb-0"><a class="stretched-link text-decoration-none text-reset" href="#">Title here</a></h2>
+                  <div class="submitted d-none"><time class="created-date">Date here</time></div>
+                </header>
+                <div class="content">Summary here</div>
+              </div>
+            </div>
+          </article>
+        </template>
+      </div>
+      <div class="modal-footer">
+        <ul class="list-inline me-auto d-none d-md-block">
+          <li class="list-inline-item"><kbd class="me-2"><svg width="15" height="15" aria-label="Enter key" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M12 3.53088v3c0 1-1 2-2 2H4M7 11.53088l-3-3 3-3"></path></g></svg></kbd><span class="DocSearch-Label">to select</span></li>
+          <li class="list-inline-item"><kbd class="me-2"><svg width="15" height="15" aria-label="Arrow down" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M7.5 3.5v8M10.5 8.5l-3 3-3-3"></path></g></svg></kbd><kbd class="me-2"><svg width="15" height="15" aria-label="Arrow up" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M7.5 11.5v-8M10.5 6.5l-3-3-3 3"></path></g></svg></kbd><span class="DocSearch-Label">to navigate</span></li>
+          <li class="list-inline-item"><kbd class="me-2"><svg width="15" height="15" aria-label="Escape key" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M13.6167 8.936c-.1065.3583-.6883.962-1.4875.962-.7993 0-1.653-.9165-1.653-2.1258v-.5678c0-1.2548.7896-2.1016 1.653-2.1016.8634 0 1.3601.4778 1.4875 1.0724M9 6c-.1352-.4735-.7506-.9219-1.46-.8972-.7092.0246-1.344.57-1.344 1.2166s.4198.8812 1.3445.9805C8.465 7.3992 8.968 7.9337 9 8.5c.032.5663-.454 1.398-1.4595 1.398C6.6593 9.898 6 9 5.963 8.4851m-1.4748.5368c-.2635.5941-.8099.876-1.5443.876s-1.7073-.6248-1.7073-2.204v-.4603c0-1.0416.721-2.131 1.7073-2.131.9864 0 1.6425 1.031 1.5443 2.2492h-2.956"></path></g></svg></kbd><span class="DocSearch-Label">to close</span></li>
+        </ul>
+        <p class="d-md-none">Search by <a class="text-decoration-none" href="https://github.com/nextapps-de/flexsearch">FlexSearch</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="wrap container-lg" role="document">
+      <div class="content">
+      
+        
+<article>
+<div class="row justify-content-center">
+  <div class="col-md-12 col-lg-10">
+    <div class="blog-header">
+      <h1>Metode Perkalian</h1>
+      <p>
+  <small>September 4, 2024&nbsp;in&nbsp;<a class="stretched-link position-relative link-muted" href="/categories/math/">math</a><span class="stretched-link position-relative reading-time text-nowrap" title="Estimated reading time"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path>
+        <path d="M12 7v5l3 3"></path>
+      </svg>4&nbsp;minutes</span></small>
+</p>
+
+    </div>
+  </div>
+  <div class="col-md-12 col-lg-9">
+    
+    <p>Metode Fundamental Pencacahan (Fundamental Principle of Counting) adalah prinsip dasar dalam matematika diskrit yang digunakan untuk menghitung jumlah total kemungkinan dari serangkaian pilihan atau langkah. Prinsip ini sangat penting dalam kombinatorika, yaitu cabang matematika yang berkaitan dengan penghitungan, pengaturan, dan kombinasi objek.</p>
+<h3 id="prinsip-dasar">Prinsip Dasar</h3>
+<hr>
+<p>Ketika kita menghadapi situasi di mana kita harus membuat beberapa pilihan secara berurutan, dan setiap pilihan tidak bergantung pada pilihan sebelumnya, maka jumlah total cara untuk membuat semua pilihan tersebut adalah hasil kali dari jumlah cara untuk setiap pilihan.</p>
+<p>Jika ada dua langkah atau kejadian yang harus dilakukan secara berurutan, dan:</p>
+<ul>
+<li>Langkah pertama bisa dilakukan dengan 
+<span class="math math-inline" id="h-sc-math-0">
+  <img src="/_13507081748479738453.svg" alt="mathematical expression or equation">
+</span> cara,</li>
+<li>Langkah kedua bisa dilakukan dengan 
+<span class="math math-inline" id="h-sc-math-1">
+  <img src="/_13927876758945220313.svg" alt="mathematical expression or equation">
+</span> cara,</li>
+</ul>
+<p>maka jumlah total cara untuk melakukan kedua langkah tersebut secara berurutan adalah 
+<span class="math math-inline" id="h-sc-math-2">
+  <img src="/_17560037277862789438.svg" alt="mathematical expression or equation">
+</span>.</p>
+<h3 id="generalisasi">Generalisasi</h3>
+<p>Jika ada 
+<span class="math math-inline" id="h-sc-math-3">
+  <img src="/_4333900663222357859.svg" alt="mathematical expression or equation">
+</span> langkah, di mana langkah ke-1 bisa dilakukan dengan 
+<span class="math math-inline" id="h-sc-math-4">
+  <img src="/_3857499148515706496.svg" alt="mathematical expression or equation">
+</span> cara, langkah ke-2 dengan 
+<span class="math math-inline" id="h-sc-math-5">
+  <img src="/_2013304713159406445.svg" alt="mathematical expression or equation">
+</span> cara, &hellip;, dan langkah ke-
+<span class="math math-inline" id="h-sc-math-6">
+  <img src="/_4333900663222357859.svg" alt="mathematical expression or equation">
+</span> dengan 
+<span class="math math-inline" id="h-sc-math-7">
+  <img src="/_10888357358276333635.svg" alt="mathematical expression or equation">
+</span> cara, maka jumlah total cara untuk melakukan semua langkah tersebut adalah:</p>
+
+<span class="math math-block text-center" id="h-sc-math-8">
+  <img src="/_16912766422736433482.svg" alt="mathematical expression or equation">
+</span>
+<h4 id="notasi-formal">Notasi Formal</h4>
+<p>Jika ada 
+<span class="math math-inline" id="h-sc-math-9">
+  <img src="/_4333900663222357859.svg" alt="mathematical expression or equation">
+</span> langkah atau kejadian, dan:</p>
+<ul>
+<li>Langkah pertama dapat dilakukan dengan 
+<span class="math math-inline" id="h-sc-math-10">
+  <img src="/_3857499148515706496.svg" alt="mathematical expression or equation">
+</span> cara,</li>
+<li>Langkah kedua dapat dilakukan dengan 
+<span class="math math-inline" id="h-sc-math-11">
+  <img src="/_2013304713159406445.svg" alt="mathematical expression or equation">
+</span> cara,</li>
+<li>&hellip;</li>
+<li>Langkah ke-
+<span class="math math-inline" id="h-sc-math-12">
+  <img src="/_4333900663222357859.svg" alt="mathematical expression or equation">
+</span> dapat dilakukan dengan 
+<span class="math math-inline" id="h-sc-math-13">
+  <img src="/_10888357358276333635.svg" alt="mathematical expression or equation">
+</span> cara,</li>
+</ul>
+<p>maka jumlah total cara untuk melakukan semua langkah tersebut adalah:</p>
+
+<span class="math math-block text-center" id="h-sc-math-14">
+  <img src="/_16912766422736433482.svg" alt="mathematical expression or equation">
+</span>
+<h4 id="intuisi-di-balik-prinsip-ini">Intuisi di Balik Prinsip Ini</h4>
+<p>Intuisi di balik prinsip ini adalah bahwa setiap kali kita membuat sebuah pilihan, pilihan tersebut “membuka” sekumpulan pilihan baru. Oleh karena itu, untuk menghitung semua kombinasi yang mungkin, kita perlu mempertimbangkan semua kemungkinan pada setiap langkah.</p>
+<p>Misalkan kita memiliki dua langkah:</p>
+<ol>
+<li>Langkah pertama: Memilih warna (Merah, Hijau).</li>
+<li>Langkah kedua: Memilih ukuran (Kecil, Besar).</li>
+</ol>
+<p>Jika kita memilih warna Merah, kita masih harus memilih ukuran, yang bisa Kecil atau Besar. Demikian pula, jika kita memilih Hijau, kita juga masih harus memilih antara Kecil dan Besar.</p>
+<p>Secara grafis, ini bisa digambarkan sebagai berikut:</p>
+<ul>
+<li>Merah
+<ul>
+<li>Kecil</li>
+<li>Besar</li>
+</ul>
+</li>
+<li>Hijau
+<ul>
+<li>Kecil</li>
+<li>Besar</li>
+</ul>
+</li>
+</ul>
+<p>Ini berarti ada 2 cara untuk memilih warna, dan untuk setiap warna, ada 2 cara untuk memilih ukuran. Jadi, total ada 
+<span class="math math-inline" id="h-sc-math-15">
+  <img src="/_5920664872709709251.svg" alt="mathematical expression or equation">
+</span> kombinasi yang mungkin.</p>
+<h3 id="contoh-rinci">Contoh Rinci</h3>
+<h4 id="contoh-1-pilihan-menu-restoran">Contoh 1: Pilihan Menu Restoran</h4>
+<p>Bayangkan kamu pergi ke restoran yang menawarkan menu sebagai berikut:</p>
+<ul>
+<li>3 jenis hidangan pembuka: Sup, Salad, Roti.</li>
+<li>4 jenis hidangan utama: Ayam, Ikan, Daging Sapi, Vegetarian.</li>
+<li>2 jenis hidangan penutup: Kue, Es Krim.</li>
+</ul>
+<p>Berapa banyak kombinasi yang bisa kamu pilih untuk makan malam 3-kursus?</p>
+<ul>
+<li><strong>Langkah 1</strong>: Pilih hidangan pembuka. Ada 3 pilihan.</li>
+<li><strong>Langkah 2</strong>: Pilih hidangan utama. Ada 4 pilihan.</li>
+<li><strong>Langkah 3</strong>: Pilih hidangan penutup. Ada 2 pilihan.</li>
+</ul>
+<p>Menurut Prinsip Dasar:</p>
+
+<span class="math math-block text-center" id="h-sc-math-16">
+  <img src="/_13141234376385863298.svg" alt="mathematical expression or equation">
+</span>
+<p>Jadi, ada 24 kombinasi berbeda dari hidangan pembuka, hidangan utama, dan hidangan penutup yang bisa dipilih.</p>
+<h4 id="contoh-2-nomor-pelat-kendaraan">Contoh 2: Nomor Pelat Kendaraan</h4>
+<p>Misalkan nomor pelat kendaraan terdiri dari:</p>
+<ul>
+<li>3 huruf, di mana setiap huruf bisa A-Z (26 kemungkinan),</li>
+<li>4 digit, di mana setiap digit bisa 0-9 (10 kemungkinan).</li>
+</ul>
+<p>Berapa banyak kombinasi nomor pelat yang bisa dibuat?</p>
+<ul>
+<li><strong>Langkah 1</strong>: Pilih huruf pertama. Ada 26 cara.</li>
+<li><strong>Langkah 2</strong>: Pilih huruf kedua. Ada 26 cara.</li>
+<li><strong>Langkah 3</strong>: Pilih huruf ketiga. Ada 26 cara.</li>
+<li><strong>Langkah 4</strong>: Pilih digit pertama. Ada 10 cara.</li>
+<li><strong>Langkah 5</strong>: Pilih digit kedua. Ada 10 cara.</li>
+<li><strong>Langkah 6</strong>: Pilih digit ketiga. Ada 10 cara.</li>
+<li><strong>Langkah 7</strong>: Pilih digit keempat. Ada 10 cara.</li>
+</ul>
+<p>Menurut Prinsip Dasar:</p>
+
+<span class="math math-block text-center" id="h-sc-math-17">
+  <img src="/_6684505281435198996.svg" alt="mathematical expression or equation">
+</span>
+<p>Jadi, ada 17.576.000 kemungkinan kombinasi nomor pelat kendaraan.</p>
+<h3 id="contoh-3-memilih-pakaian">Contoh 3: Memilih Pakaian</h3>
+<p>Misalkan kamu memiliki:</p>
+<ul>
+<li>3 pilihan baju (A, B, C),</li>
+<li>2 pilihan celana (X, Y),</li>
+<li>4 pilihan sepatu (1, 2, 3, 4).</li>
+</ul>
+<p>Berapa banyak kombinasi pakaian yang bisa kamu pakai?</p>
+<ul>
+<li><strong>Langkah 1</strong>: Memilih baju. Ada 3 cara untuk memilih baju.</li>
+<li><strong>Langkah 2</strong>: Memilih celana. Ada 2 cara untuk memilih celana.</li>
+<li><strong>Langkah 3</strong>: Memilih sepatu. Ada 4 cara untuk memilih sepatu.</li>
+</ul>
+<p>Menurut Metode Fundamental Pencacahan:</p>
+
+<span class="math math-block text-center" id="h-sc-math-18">
+  <img src="/_4253552292017649613.svg" alt="mathematical expression or equation">
+</span>
+<p>Jadi, ada 24 cara berbeda untuk memilih kombinasi baju, celana, dan sepatu.</p>
+<h3 id="contoh-4-membuat-kata-sandi">Contoh 4: Membuat Kata Sandi</h3>
+<p>Misalkan kamu ingin membuat kata sandi dengan format:</p>
+<ul>
+<li>1 huruf kapital (A-Z),</li>
+<li>1 angka (0-9),</li>
+<li>1 simbol (misal: @, #, $, %).</li>
+</ul>
+<p>Berapa banyak kata sandi yang mungkin?</p>
+<ul>
+<li><strong>Langkah 1</strong>: Memilih huruf kapital. Ada 26 huruf (A-Z).</li>
+<li><strong>Langkah 2</strong>: Memilih angka. Ada 10 angka (0-9).</li>
+<li><strong>Langkah 3</strong>: Memilih simbol. Misalkan ada 4 simbol yang bisa digunakan.</li>
+</ul>
+<p>Menurut Metode Fundamental Pencacahan:</p>
+
+<span class="math math-block text-center" id="h-sc-math-19">
+  <img src="/_1306864296970712657.svg" alt="mathematical expression or equation">
+</span>
+<p>Jadi, ada 1040 kemungkinan kata sandi yang bisa dibuat.</p>
+<hr>
+
+    </div>
+</div>
+</article>
+
+      
+      </div>
+    </div>
+    
+    
+
+    <footer class="footer text-muted">
+  <div class="container-lg">
+    <div class="row">
+      <div class="col-lg-8 text-center text-lg-start">
+        <ul class="list-inline">
+          <li class="list-inline-item"><a class="text-muted" href="/privacy/">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-8 text-center text-lg-end">
+        <ul class="list-inline">
+          <li class="list-inline-item">Brought to you by <a class="text-muted" href="https://gethyas.com/">Hyas</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+<script async
+  src="/js/app.9cf54cc211bb1255445f5c85eac8c67c72aa578e30f8576b5bef1d9e15e74595.js"
+  integrity="sha256-nPVMwhG7ElVEX1yF6sjGfHKqV44w&#43;FdrW&#43;8dnhXnRZU=">
+</script>
+
+
+
+
+
+<script async
+  src="/js/flexsearch.a43ad3e9453067320ab808b85ef437fc65518a219cfea8499e744b7b6f0b6924.js"
+  integrity="sha256-pDrT6UUwZzIKuAi4XvQ3/GVRiiGc/qhJnnRLe28LaSQ=">
+</script>
+<script async
+  src="/js/search-modal.543117a85590123cda9e96d1fcbf8bd22fc1a3a3ca3d31a816382f0f10f30a34.js"
+  integrity="sha256-VDEXqFWQEjzanpbR/L&#43;L0i/Bo6PKPTGoFjgvDxDzCjQ=">
+</script>
+
+    
+  </body>
+</html>

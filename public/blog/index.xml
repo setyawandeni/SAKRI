@@ -7,14 +7,28 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Hyas</copyright>
-    <lastBuildDate>Thu, 07 Sep 2023 16:27:22 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 04 Sep 2024 07:06:46 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Metode Perkalian</title>
+      <link>http://localhost:1313/blog/metode-perkalian/</link>
+      <pubDate>Wed, 04 Sep 2024 06:41:10 +0700</pubDate>
+      <guid>http://localhost:1313/blog/metode-perkalian/</guid>
+      <description>Metode Fundamental Pencacahan (Fundamental Principle of Counting) adalah prinsip dasar dalam matematika diskrit yang digunakan untuk menghitung jumlah total kemungkinan dari serangkaian pilihan atau langkah.</description>
+    </item>
     <item>
       <title>Example Post</title>
       <link>http://localhost:1313/blog/example-post/</link>
       <pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate>
       <guid>http://localhost:1313/blog/example-post/</guid>
       <description>You can use blog posts for announcing product updates and features.</description>
+    </item>
+    <item>
+      <title>Metode_penjumlahan</title>
+      <link>http://localhost:1313/blog/metode_penjumlahan/</link>
+      <pubDate>Wed, 04 Sep 2024 07:06:46 +0700</pubDate>
+      <guid>http://localhost:1313/blog/metode_penjumlahan/</guid>
+      <description>Aturan Penjumlahan (Addition Principle) adalah konsep dasar lain dalam pencacahan yang berbeda dengan Aturan Perkalian. Aturan Penjumlahan digunakan saat kita memiliki beberapa pilihan yang saling eksklusif (tidak dapat terjadi secara bersamaan), dan kita ingin menghitung jumlah total kemungkinan dari semua pilihan tersebut.</description>
     </item>
   </channel>
 </rss>
